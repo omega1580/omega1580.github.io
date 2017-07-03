@@ -393,9 +393,10 @@ $("#form").submit(function () { //устанавливаем событие от
     var form_data = $(this).serialize(); //собираем все данные из формы
     $.ajax({
         type: "POST", //Метод отправки
-        url: "send.php", //путь до php фаила отправителя
+        url: "write.php", //путь до php фаила отправителя
         data: form_data,
         success: function (data) {
+            alert( "Прибыли данные: " + data );
             if (data == '1') {
                 $('#form').html('Спасибо! Ваше сообщение отправлено!');
             } else
