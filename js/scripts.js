@@ -391,7 +391,7 @@ $('.navbar-nav a').each(function () {
 
 
 $("#form").submit(function () { //устанавливаем событие отправки для формы с id=form
-    var form_data = $(this).serialize(); //собераем все данные из формы
+    var form_data = $(this).serialize(); //собираем все данные из формы
     $.ajax({
         type: "POST", //Метод отправки
         url: "send.php", //путь до php фаила отправителя
@@ -400,13 +400,30 @@ $("#form").submit(function () { //устанавливаем событие от
             if (data == '1') {
                 $('#form').html('Спасибо! Ваше сообщение отправлено!');
             } else
-                $('#form').html('Сервер не отвечает, попробуйте позже!');
+                $('#form').html('000Сервер не отвечает, попробуйте позже!');
         },
         error: function () {
-            $('#form').html('Сервер не отвечает, попробуйте позже!');
+            $('#form').html('111Сервер не отвечает, попробуйте позже!');
         }
     });
     return false;
 });
+/*
+  $("#form").submit(function() {
+    $.ajax({
+      type: "POST",
+      context: this,
+      url: "send.php",
+      data: $(this).serialize(),
+      error: function() {
+        $('#form').html('000Сервер не отвечает, попробуйте позже!');
+      },
+      success: function() {
+        $('#form').html('Спасибо! Ваше сообщение отправлено!');
+      }
+    });
+    return false;
+  });
+});
 
-
+*/
