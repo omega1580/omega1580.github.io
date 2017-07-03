@@ -389,8 +389,7 @@ $('.navbar-nav a').each(function () {
 });
 
 
-
-$("#form").submit(function () { //устанавливаем событие отправки для формы с id=form
+/*$("#form").submit(function () { //устанавливаем событие отправки для формы с id=form
     var form_data = $(this).serialize(); //собираем все данные из формы
     $.ajax({
         type: "POST", //Метод отправки
@@ -408,7 +407,9 @@ $("#form").submit(function () { //устанавливаем событие от
     });
     return false;
 });
-/*
+*/
+
+
   $("#form").submit(function() {
     $.ajax({
       type: "POST",
@@ -425,5 +426,3 @@ $("#form").submit(function () { //устанавливаем событие от
     return false;
   });
 });
-
-*/
