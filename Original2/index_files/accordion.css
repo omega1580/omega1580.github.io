@@ -1,0 +1,86 @@
+/*
+* Pixel Point Creative - Cinch Menu Module
+* License: GNU General Public License version
+* See: http://www.gnu.org/copyleft/gpl.html
+* Copyright (c) Pixel Point Creative LLC.
+* More info at http://www.pixelpointcreative.com
+* Last Updated: 3/14/13
+*/
+.accordion-menu a{
+	text-decoration: none;
+	background: none;
+	font-family: Arial;
+}
+.accordion-menu a:hover,
+.accordion-menu a:visited,
+.accordion-menu a:active,
+.accordion-menu a:focus{
+	background: none;
+}
+
+.accordion-menu  a img {
+	vertical-align:middle;
+	border: 0 none;
+    height: auto;
+    max-width: 100%;
+	padding:0 5px 0 0;
+}
+
+.accordion-menu li{
+    cursor: pointer;
+    background:none !important;
+}
+
+.accordion-menu .opened{
+    border-bottom:none!important;
+}
+.accordion-menu li:last-child, .accordion-menu > li.last {
+    border-bottom: 1px solid #1a1a1a!important;
+    margin-bottom:-1px;
+}
+.accordion-menu > li > .item-wrapper{
+	height: 35px;
+	display:inline-block;
+	width:100%;
+}
+.accordion-menu > li > .item-wrapper a{
+	line-height: 35px;
+	font-size: 12px;
+	font-weight: bold;
+}
+.accordion-menu li .item-wrapper .menu-button{
+	width: 16px;
+	height: 16px;
+	margin: 9px 5px 0px 5px;
+	overflow: hidden;
+}
+
+.accordion-menu li .item-wrapper .menu-link{
+	width:81%;
+}
+
+.accordion-menu  li .ul-wrapper{
+	display: none;
+}
+
+.accordion-menu  li ul li .item-wrapper{
+	/* height: 30px;	 */
+	display:inline-block;
+	width:97%;
+}
+.accordion-menu  li ul li .item-wrapper a{
+line-height:35px;}
+
+ul.accordion-menu li ul {
+margin:0px;
+padding:0px;
+margin-bottom:-1px;
+ }
+ ul.accordion-menu li ul li .item-wrapper{
+ margin:0px;
+ padding-left:12px!important;
+ }
+  ul.accordion-menu li ul li li{
+ margin:0px;
+ padding-left:0px!important;
+ }
