@@ -757,7 +757,13 @@ blockquote {
 #footer p {margin-top: 10px;}
 
 @media (min-width: 1010px) {
-.nav>li>a {padding: 20px 25px 20px 0px !important;}
+.menuu>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+width:193px;
+  text-align:center;
+}
 }
 
 .section-description {
@@ -805,3 +811,63 @@ p.last-description {
     padding: 50px 0px 40px;
 }
 
+/*My add*/
+
+ul.menuuu li {
+    margin-left: 0;
+}
+ul.menuuu li+li {
+    margin-left: 0;
+}
+
+
+
+div.k2CustomCodeBlock {
+display:none;
+}
+div#content_top1 {
+display:none;
+}
+.tel2 {
+    margin-top: 90px !important;
+}
+.tel2 em {
+    padding-left: 0px;
+}
+#yt_header_top #content_top2 .module {
+padding:0 !important;
+}
+
+#content_top2 {
+position:relative;
+left:16px;
+}
+#yt_component {
+position:relative;
+top:30px;
+    margin-right: 20px !important;
+}
+.col-xs-12 {
+    width: 100%;
+    padding:0px;
+     margin-top: -30px;}
+.menuu {
+    position: relative;
+    left: 50px;
+}
+}
+
+
+.module h3.modtitle {
+    font-size: 120%;
+    color: #222;
+    text-align: center;
+}
+
+@media screen and (min-width: 300px) and (max-width: 350px) {.menuu{left: 40px;}}  
+@media screen and (min-width: 351px) and (max-width: 402px) {.menuu{left: 40px;}}  
+@media screen and (min-width: 403px) and (max-width: 442px) {.pip>li{padding-left:98px !important;} .menuu{left: 65px;}} 
+@media screen and (min-width: 443px) and (max-width: 510px) {.menuu{left: 10px;}} 
+@media screen and (min-width: 511px) and (max-width: 560px) {.menuu{left: 50px;}} 
+@media screen and (min-width: 561px) and (max-width: 625px) {.menuu{left: 70px;}} 
+@media screen and (min-width: 625px) and (max-width: 700px) {.menuu{left: 20px;}} 
