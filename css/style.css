@@ -85,7 +85,7 @@ img {
 .phone-details,
 .email-details {
     color: #333;
-    font-size: 18px;
+    font-size: 20px;
     padding-left: 10px;
 }
 
@@ -664,7 +664,7 @@ blockquote {
 
 /*new style*/
 .logo_serv {  padding: 15px 0;}
-.city_serv {float: left;}
+/*.city_serv {float: left;}*/
 .city_serv span {font-size: 22px;color: #2aa615;}
 .city_serv ul {list-style: none;  padding: 0; font-size: 15px;}
 .active_city_serv {color:#000!important;border-bottom: 1px solid #fff!important;}
@@ -674,7 +674,7 @@ blockquote {
 .col-md-hat {margin: 0px 0px 0 5px;  width: auto;}
 .col-md-hat a{text-decoration: none;}
 .col-md-hat a:hover{}
-.phone_serv {font-size: 26px;}
+.phone_serv {font-size: 20px;}
 .mail_serv {font-size: 20px;text-decoration: underline;}
 .mail_serv:hover {text-decoration: none;}
 .service-item h3 {font-size: 22px;}
@@ -739,7 +739,7 @@ blockquote {
 .navbar-default {background-color: white;  border-bottom: 1px solid rgb(156, 156, 156);}
 .navbar-default .navbar-nav>li>a {color: #000;}
 .clear {clear: both;}
-.nav_bar_service .navbar-nav li a {  color: #000;  font-weight: bold;  text-transform: uppercase;  /* word-spacing: 5px; */}
+.nav_bar_service .navbar-nav li a {  color: #000;  font-weight: bold;  /*text-transform: uppercase;  /* word-spacing: 5px; */}
 .nav_bar_service .navbar-nav li a:hover{border-bottom: 5px solid #3988FF; color: #000;transition: all 100ms; }
 .active_li {border-bottom: 5px solid #3988FF;}
 #show_all_number {display: none;  background-color: #fff; }
